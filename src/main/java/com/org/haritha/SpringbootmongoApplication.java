@@ -1,17 +1,16 @@
-package com.org.cts;
+package com.org.haritha;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-@EnableMongoRepositories
-public class EmployeeApplication {
+public class SpringbootmongoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EmployeeApplication.class, args);
+
+		SpringApplication.run(SpringbootmongoApplication.class, args);
 	}
 
 }
